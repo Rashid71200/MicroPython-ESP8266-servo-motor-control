@@ -1,0 +1,7 @@
+# MicroPython-ESP8266-servo-motor-control
+This code sets up an ESP8266 WiFi web server to control the speed of a DC motor using a slider on a web page. The web page sends the motor speed value to the ESP8266 over HTTP GET requests, and the ESP8266 adjusts the motor speed accordingly. The code also includes a simple HTML page with a slider element to control the motor speed.
+This code provides a simple way to control the speed of a DC motor connected to an ESP8266 using a web page with a slider. The ESP8266 acts as a WiFi web server that listens for HTTP GET requests sent from the web page, and adjusts the motor speed based on the slider value. The web page is served from the ESP8266, and can be accessed from any device on the same WiFi network.
+
+To use this code, the user should connect a DC motor to the ESP8266 and modify the code to reflect the pin connections. Additionally, the user should update the code with their WiFi network name and password. Once the ESP8266 is connected to the WiFi network and running the code, the user can navigate to the IP address of the ESP8266 on a web browser to access the web page and control the motor speed.
+
+Overall, this code provides a simple and straightforward way to control a DC motor over WiFi using an ESP8266 and a web page with a slider. It is suitable for hobbyists and makers who want to experiment with motor control and web development using microcontrollers.
